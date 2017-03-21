@@ -1,6 +1,6 @@
 common: &common
   submit_dream: 2020-02-12t00:00:00+02:00
-  safety_file: 2017-03-15t00:00:00+02:00
+  safety_file: 2001-03-15t00:00:00+02:00
 
 development:
   <<: *common

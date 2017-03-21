@@ -24,6 +24,8 @@ module Firestarter
     config.active_record.raise_in_transactional_callbacks = true
     Rails.application.config.x.firestarter_settings = config_for(:firestarter_settings)
     Rails.application.config.coin_rate = 10.0 #Coin conversion from Your currency
+    Rails.application.config.max_budget_real = ENV['MAX_BUDGET'] or 0
+    Rails.application.config.grant_refill = ENV['GRANT_REFILL'] or 0
 
     config.autoload_paths += Dir["#{config.root}/lib/googleAppsScript/**/"]
   end

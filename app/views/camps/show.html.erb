@@ -292,7 +292,6 @@
             </div>
         <% end %>
 
-
         <% if current_user &&
             ((@camp.creator == current_user) || (current_user.guide || current_user.admin)) %>
             <div class="panel panel-default">
@@ -305,6 +304,12 @@
                         <a href="<%= camp_images_path(@camp) %>" class="btn btn-primary camp-button" role="btn button"><%=t :manage_images %></a>
                     </span></li>
 
+                    <p>
+                        <br>
+                        <b><%= t("activerecord.models.user.one") %>:</b> <%= @camp.creator.email %>
+                        <br>
+                     </p>
+
                     <!-- Granting system -->
                     <% if current_user && (current_user.guide || current_user.admin) %>
                         <%= button_to t(@camp.grantingtoggle? ? :turn_off_granting : :enable_granting),
@@ -316,15 +321,12 @@
                         <%= button_to t(:archive_this_creation), :archive_camp,
                                       { method: :post, class: "btn btn-danger", data: { confirm: t(:are_you_sure) } } %>
                       <% end %>
-
-                      <% if current_user&.admin %>
-                        <%= button_to t(:delete_this_creation), { action: 'destroy' },
-                                      { method: :delete, class: "btn btn-danger", data: { confirm: t(:delete_are_you_sure) } } %>
-                      <% end %>
-
-                      <br>
-                      <%= t("activerecord.models.user.one") %> <%= @camp.creator.email %>
                     <% end %>
+
+                  <% if current_user && (@camp.creator == current_user || current_user.admin) %>
+                    <%= button_to t(:delete_this_creation), { action: 'destroy' },
+                                  { method: :delete, class: "btn btn-danger", data: { confirm: t(:delete_are_you_sure) } } %>
+                  <% end %>
 
                     <% if Rails.configuration.x.firestarter_settings["add_to_list"] %>
                         <br>
@@ -342,7 +344,7 @@
             </div>
         <% end %>
 
-        <% if current_user && (current_user.guide || current_user.admin) %>
+        <% if current_user %>
           <br>
           <div class="panel panel-default">
             <div class="panel-heading"><h2 class="header-sub-heading"><%=t :form_project_management_crew %></h2></div>
@@ -356,7 +358,9 @@
                       <br>
                       <%= person.name %>
                       <%= person.email %>
-                      <%= person.phone_number %>
+                      <% if current_user && (current_user.guide || current_user.admin) %>
+                        <%= person.phone_number %>
+                      <% end %>
                       <br>
                     </li>
                   <% end %>
