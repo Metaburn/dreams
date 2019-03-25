@@ -56,6 +56,7 @@ gem 'filterrific'
 # Images at S3
 gem 'paperclip'
 gem 'aws-sdk', '< 2'
+gem 'aws-sdk-s3'
 gem 'rmagick', '~> 2.16.0'
 
 gem 'nokogiri'

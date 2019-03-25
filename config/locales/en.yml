@@ -141,124 +141,12 @@ en:
 
   form_artgrants_headline: Art grant information
   form_artgrants_text_html: <p>If you're not looking for an art grant, leave these fields blank.</p><p>Art grants are given by the Metaburn community. Each Metaburner has 10 art-grants to hand out. You can give all your grants to one project or spread them around. Once a grant has been gifted to a dream, it can't be taken back.</p>
-  form_minigrants_realcurrency_label: "Minumum number of grants needed:"
+  form_minigrants_realcurrency_label: "Minumum funding needed in real currency:"
   form_minigrants_realcurrency_guidetext_html: Necessary minimum budget level, below which you won't get funded.
-  form_maxigrants_realcurrency_label: "Grants needed to fully fund dream:"
+  form_maxigrants_realcurrency_label: "Funding in real currency needed to fully fund dream:"
   form_maxigrants_realcurrency_guidetext_html: "How many grants you need to fully fund your project."
   form_budgetplan_label: "Budget overview"
   form_budgetplan_guidetext_html: "How will you use your budget? Describe your costs, not too specific, not too vague, perfectly balanced."
-
-
-  form_spec_headline: Technical information and Visibility
-  form_spec_guidelines: Please note that in order to complete the registration process you must upload, imaging, sketches and other files via "Upload photos" in the personal area. Requests which fail to meet this criteria will not be considered.
-  form_spec_physical_description_label: Please insert physical descriptions and specifications
-    of your art installation/piece
-  form_spec_physical_description_guidetext_html: What would one be able to see while
-    facing it, standing inside of it or circling around it? Please describe in detail
-    the appearance of your art installation, what will be the construction method,
-    what materials will be used and what kind of a finish will your installation have.
-  form_spec_sizes: Please insert the measurements (in meters) of your art installation
-  form_spec_length_label: Length
-  form_spec_width_label: Width
-  form_spec_height_label: Height
-  form_spec_visual_night_day_label: Please describe your installation's visibility
-    in day time and in night time/over the course of 24 hrs
-  form_spec_visual_night_day_guidetext_html: 'Please be advised that some consideration
-    should be taken in regards to day-time vs. night-time visibility and lighting
-    : What would your art installation look like a night? How important of a role
-    will lighting play and what will be its added value? Is the use of light a substantial
-    part of your installation? What will your artwork look like during day-time? and
-    how will it contribute and blend with the playa?'
-  form_spec_electricity_details_label: Please indicate power requirements
-  form_spec_electricity_details_guidetext_html: What objects will require electricity
-    in your art installation? Electric systems, computers, lighting, sound, triangle
-    toasters etc.
-  form_dream_prop_interactivity_audience_participation_guidetext_html: At Midburn,
-              the artists are encouraged to break the barriers between the art work and its
-              viewers. Please share with us your vision regarding the level in which one could
-              interact with the installation or influence it - climbing, touching, operating,
-              playing etc. Please feel free to consider movement, performance, events, encounters,
-              occurrences around it etc.
-  form_dream_prop_interactivity_fire_present_desc_guidetext_html: 'Please be advised:
-              Art installations that involve fire will require personal coordination with the
-              art department staff'
-  form_dream_prop_interactivity_sound_desc_guidetext_html: What kind of sound, how
-                        loud, who, and at what time? (This, so that we can locate you in the optimal place)
-  form_dream_prop_interactivity_fire_event_desc_guidetext_html: Please describe the
-    motives and the artistic value behind the burning of your installation and the
-    manner in which it will take place (the burning of installations will be coordinated
-    with the fire department, as it involves certain restrictions. This statement
-    does not imply confirmation or an obligation to burn the art installation.
-  form_dream_prop_community_context_desc_guidetext_html: Cooperation during costruction,
-              shared events with other communities etc.
-  form_dream_prop_theme_annual_desc_guidetext_html: Does the art installation draw its inspiration from the annual "Lucid Dream" theme or supports the ten Burning Man principles?
-  form_dream_scholarship_head: Midburn Art Fund scholarship application
-  form_dream_scholarship_head_desc: 'If you wish to receive a stipend from Midburn''s
-    Art Fund, please fill in the following fields. This information will be added
-    to any other information entered so far, and will be forwarded to the Art Fund
-    for evaluation. Please take into consideration that detail and depth are key to
-    the evaluation of your request, we recommend that you take time and complete this
-    section with care alongside the other sections. For more information regarding
-    the criteria of the art fund and the scholarship specification, please visit: '
-  form_dream_prop_community: Community
-  form_dream_prop_theme: Theme
-  form_dream_prop_head: Dream Theme
-  form_dream_prop_philosophy: What the philosophy behind the piece/art installation?
-  form_dream_prop_inspiration: What were your insperations  for this project?
-  form_dream_prop_inspiration_guidetext_html: 'For instance: historical, cultural,
-    social etc.'
-  form_dream_prop_interactivity: Interactivity
-  form_dream_scholarship_head_desc_link: Link
-  form_dream_scholarship_fund_is_from_art_fund: Are you interested in submitting a
-    scholarship application for your project?
-  form_dream_scholarship_fund_is_open_for_public: Are you interested in opening your
-    art installation for receiving hearts from the community?
-  form_dream_scholarship_pre_fill_notes_criterions: Prior to filling in, please review
-    the criteria for scholarship approval.
-  form_dream_scholarship_pre_fill_notes_questions: If you have any questions please
-    review our FAQ section
-  form_dream_scholarship_budget: Budget
-  form_dream_scholarship_budget_desc: Please supply a two level budget, in line with
-    proposals or estimates by vendors. The first budget level is the bare minimum
-    amount required for the operation of the project. The second budget level is an
-    actual and detailed requested project budget. Please make sure that the numbers
-    you insert here are aligned with the ones specified in the budget file.
-  form_dream_scholarship_budget_min_original: Bare minmum amount required for the
-    project
-  form_dream_scholarship_budget_max_original: Actual requested amount
-  form_dream_scholarship_budget_max_original_desc: Please indicate what the added
-    funds will permit you to do
-  form_dream_scholarship_budget_form_desc: Please fill in your budget details in the
-    following file. This file is your personal file and was created when you created
-    Dream.
-  form_dream_scholarship_bank_account_info: Bank account information to which the
-    scholarship would be wired to.
-  form_dream_scholarship_bank_account_info_guidetext_html: Name of account holder/bank
-    no./branch/account number
-  form_dream_scholarship_financial_conduct: Financial conduct
-  form_dream_scholarship_financial_conduct_is_intial_budget: Has the project bare minimum budget met?
-  form_dream_scholarship_financial_conduct_intial_budget_desc: Upon approval, scholarships will be granted only after the art installation has been completed and once it's approved as "in line with scholarship's requirements" (approx. 45 days after the event). How are you planning on financing the construction of your art installation?
-  form_dream_scholarship_financial_conduct_money_raise_desc: When and how are funds
-    going to be raised?
-  form_dream_scholarship_financial_conduct_money_raise_desc_guidetext_html: Please
-    present a plan for raising the remaining required resources. Who are the people
-    who are going to lead it, and what prior relevant experience do they have? As
-    you may know, the fund doesn't cover the complete costs of each project, but rather
-    50% max. of it, given to recipients who are chosen to be granted the maximum amount
-    of support. The maximum amount granted last year was 30% of the planned budget.
-  form_dream_scholarship_execution_potential: Performance potential
-  form_dream_scholarship_execution_potential_previous_experience: Prior relevant experience
-  form_dream_scholarship_execution_potential_previous_experience_guidetext_html: A
-    detailed account of past experience and work. Please attach portfolio link, Facebook
-    pages, websites, etc.
-  form_dream_scholarship_execution_potential_work_plan: What is your work plan?
-  form_dream_scholarship_execution_potential_work_plan_guidetext_html: Please give
-    us a detail account of your schedule, work plan, deployment and de-construction
-    plans including schedules, time estimates, man power, moop management and transportation
-    means to and from the event.
-  form_dream_scholarship_post_desc: Here are some useful links for your convenience
-  form_dream_scholarship_post_desc_criterions: Criteria
-  form_dream_scholarship_post_desc_faq: FAQ
 
   form_click_to_edit_html: <a>Click to edit</a>
 
@@ -281,29 +169,6 @@ en:
     might be added and account for the permanent stabilization of the construct),
     and finally a consideration of anchoring points when dealing with the pulling
     of heavy components.
-  form_safety_prince: Safety key points
-  form_safety_equipment_desc: 'The required safety equipment for construction '
-  form_safety_equipment_guidetext_html: Sunshades, water, protective equipment such
-    as goggles, harnesses, shackles, cables, a fire extinguisher for welding, equipment
-    for high altitudes, etc.
-  form_safety_how_to_build_safety: Protective means' construction method
-  form_safety_how_to_build_safety_desc: Work enviorment equipment, sunshade making
-    and other means
-  form_safety_how: Method of erecting the art installation
-  form_safety_how_desc: If lifting is needed with BEE or man power, please specify
-    the stages and methods of it
-  form_safety_grounding: Method of securing the art installation to the ground
-  form_safety_grounding_desc: Including depth of spike hammering. If needed, we recommend
-    to include a description of the method of securing to the ground.
-  form_safety_securing: Method of proecting/securing
-  form_safety_securing_desc: Using cables, spikes, chains and so forth, please address
-    the issue if securing the spikes and marking them clearley for bypasser to see.
-  form_safety_securing_parts: Method of protection of moving parts from impact.
-  form_safety_securing_parts_desc: Joints, gears, moving parts etc. Please specify
-    the recommended safety range needed for avoiding impact
-  form_safety_signs: warning sign/instruction needed
-  form_safety_signs_desc: that addresses all of the aforementioned aspects, and the
-    method of its placement in the art installation
   form_program_head: Program Info
   form_program_name: Dream Name
   form_program_hebrew: Hebrew
@@ -317,12 +182,7 @@ en:
   form_program_activity_desc: Please specidy the day, time, name of activity and wether
     it is a single activity or a reoccuring one
   form_congratulations_html: Congrads. You've reached your "lowest". From here you can only fly up.
-  form_location_header: Preparations for the field
-  form_location_info: Placement on the playa
-  form_location_info_desc: This is the place to make requests and flood us with ideas
-    of your ideal location, so that we could bring your installation to the best possible
-    location on the playa. Note that the measurements of the art installation, sound,
-    power consumption and general attributes all play a role in determining its location.
+
   form_basics_safety_bag: Fields which are marked in ultra pink are required for the
     safety file. Most of them are not shown in the public dream page
   form_safetybag_headline: Safety file info
@@ -601,69 +461,8 @@ en:
         safetybag_firstMemberEmail: Email of additional team member
         safetybag_secondMemberName: Name of additional team member 2
         safetybag_secondMemberEmail: Email of additional team member 2
-        dreamprop_philosophy: Your philosophical take on your creation
-        dreamprop_inspiration: Sources of your inspiration
-        dreamprop_interactivity_audience_participation: Audience participation
-        dreamprop_interactivity_is_fire_present: Fire
-        dreamprop_interactivity_fire_present_desc: Fire details
-        dreamprop_interactivity_is_sound: Sound
-        dreamprop_interactivity_sound_desc: Sound details
-        dreamprop_interactivity_is_fire_event: Burning of the installation
-        dreamprop_interactivity_fire_event_desc: 'Details of burning '
-        dreamprop_community_is_installation_present_for_event: The installation was
-          made expecially for Midburn
-        dreamprop_community_is_installation_present_for_public: The installation is
-          planned for public space
-        dreamprop_community_is_context: Communal connectivity
-        dreamprop_community_context_desc: Details of communal connectivity
-        dreamprop_community_is_interested_in_publicity: Interested in exhibiting in
-          public space
-        dreamprop_theme_is_annual: This year's theme
-        dreamprop_theme_annual_desc: Details of the year's theme
         about_the_artist: About the artist
         website: Web site
-        spec_physical_description: Physical describtion
-        spec_length: Lenght
-        spec_width: Width
-        spec_height: Hight
-        spec_visual_night_day: Visual day and night
-        spec_is_electricity: Needs electricity
-        spec_electricity_details: Details of use of electricity
-        spec_electricity_how: How will electricity be wired
-        spec_electricity_is_daytime: Use of electricity during the day
-        spec_electricity_watt: The power in Watt
-        program_dream_name_he: Name of the installation for the Hebrew programme
-        program_dream_name_en: Name of the installation for the English programme
-        program_dreamer_name_he: Artist's/ team of artists' name for the Hebrew programme
-        program_dreamer_name_en: Artist's/ team of artists' name for the English programme
-        program_dream_about_he: Description of the installation for the Hebrew programme
-        program_dream_about_en: Description of the installation for the English programme
-        program_special_activity: Special activities for the programme
-        dreamscholarship_financial_conduct_intial_budget_desc: How will you fund the
-          building stage?
-        # Lots of aliases are a bad practice. TODO: fix this
-        safety_is_heavy_equipment: :form_is_heavey_equip_needed
-        safety_equipment: :form_safety_equipment_desc
-        safety_how_to_build_safety: :form_safety_how_to_build_safety
-        safety_how: :form_safety_how
-        safety_grounding: :form_safety_grounding
-        safety_securing: :form_safety_securing
-        safety_securing_parts: :form_safety_securing_parts
-        safety_signs: :form_safety_signs
-        location_info: :form_location_info
-        dreamscholarship_fund_is_from_art_fund: :form_dream_scholarship_fund_is_from_art_fund
-        dreamscholarship_fund_is_open_for_public: :form_dream_scholarship_fund_is_open_for_public
-        dreamscholarship_budget_min_original: :form_dream_scholarship_budget_min_original
-        dreamscholarship_budget_max_original: :form_dream_scholarship_budget_max_original
-        dreamscholarship_budget_max_original_desc: :form_dream_scholarship_budget_max_original_desc
-        dreamscholarship_bank_account_info: :form_dream_scholarship_bank_account_info
-        dreamscholarship_financial_conduct_is_intial_budget: :form_dream_scholarship_financial_conduct_is_intial_budget
-        dreamscholarship_financial_conduct_money_raise_desc: :form_dream_scholarship_financial_conduct_money_raise_desc
-        dreamscholarship_execution_potential_previous_experience: :form_dream_scholarship_execution_potential_previous_experience
-        dreamscholarship_execution_potential_work_plan: :form_dream_scholarship_execution_potential_work_plan
-        projectmgmt_is_theme_camp_dream: :form_project_management_is_theme_camp_dream
-        projectmgmt_is_dream_near_theme_camp: :form_project_management_is_dream_near_theme_camp
-        projectmgmt_dream_pre_construction_site: :form_project_management_dream_pre_construction_site
         dream_point_of_contact_email: :form_dream_point_of_contact_email
         safety_file_comments: Safety File Comments
         google_drive_folder_path: Google drive folder path
@@ -723,50 +522,6 @@ en:
               blank: Add name of supervisor
       messages:
         record_invalid: 'Auth failed : %{errors}'
-  simple_form:
-    labels:
-      camp:
-        edit:
-          dreamprop_interactivity_is_sound: Does the installation make any sound?
-          dreamprop_interactivity_is_fire_present: Does the installation include use
-            of fire as an integral part?
-          dreamprop_interactivity_is_fire_event: Do you wish to plan the burning of
-            your work?
-          dreamprop_community_is_installation_present_for_event: Will the installation
-            be made especially for this event?
-          dreamprop_community_is_installation_present_for_public: Are you planning
-            to exhibit your work in any public place after the event?
-          dreamprop_community_is_context: Do you have connections to the community,
-            except for Midburn, before or after the event?
-          dreamprop_community_is_interested_in_publicity: In case there will be a
-            chance of exhibiting your work in public/ at a festival/ or at another
-            Midburn event, will you be interested in doing so?
-          dreamprop_theme_is_annual: Is your project supporting the Midburn's  theme
-            of the year?
-          spec_is_electricity: Will your installation need electricity?
-          spec_electricity_is_daytime: Will it need electricity at day time?
-          spec_electricity_watt: What would be the required electric rate for the
-                      art installation? Please insert a Watt measurement. (Mandatory)
-          dreamscholarship_financial_conduct_is_intial_budget: Do you have an elementary
-            budget for creating your installation?
-          spec_electricity_info: 'Any information you may choose to enter in this form
-              could have implications regarding the project''s planning, budget and field deployment.
-              We ask that you fill it in with great care and attention. If you feel that you
-              might not possess the proper knowledge or the required information, please consult
-              a professional prior to submission. Please be advised: Electric connection and
-              wiring during the event will be performed exclusively during night-time. Any further
-              need for additional operation hours and/or power beyond what is supplied by the
-              event''s production will be addressed privately to a professional third party
-              or to the art department''s staff and will entail additional expenses.'
-          spec_electricity_how: How will the wiring be installed and hooked up to the generators?
-          # TODO: same for HE
-          dreamprop_interactivity_audience_participation: How does the art installation
-            involve its audience and elicit participation?
-          dreamprop_interactivity_fire_present: Description
-          dreamprop_interactivity_sound_desc: Description
-          dreamprop_interactivity_fire_event_desc: Description
-          dreamprop_community_context_desc: Description
-          dreamprop_theme_annual_desc: Description
 
   errors:
     format: "%{attribute} %{message}"

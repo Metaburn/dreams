@@ -162,14 +162,6 @@
       %blockquote
         = best_in_place_if @can_edit, @camp, :recycling, html_attrs: {maxlength: 512, class: "form-control"}, as: :textarea, display_with: :simple_format, place_holder: t(:form_click_to_edit_html)
 
-  .combo#plan
-    - if app_setting("plan")
-      = form.label t("form_plan_label")
-      .field-description
-        = t("form_plan_guidetext_html")
-      %blockquote
-        = best_in_place_if @can_edit, @camp, :plan, html_attrs: {maxlength: 1024, class: "form-control"}, as: :textarea, display_with: :simple_format, place_holder: t(:form_click_to_edit_html)
-
   .combo#light
     - if app_setting("light")
       = form.label t("form_light_label")
@@ -202,47 +194,6 @@
         = t("form_neighbors_guidetext_html")
       %blockquote
         = best_in_place_if @can_edit, @camp, :neighbors, html_attrs: {maxlength: 4096, class: "form-control"}, as: :textarea, display_with: :simple_format, place_holder: t(:form_click_to_edit_html)
-
-  %br
-  .h3
-    = form.label t("form_project_management_crew")
-    %span.label.label-success
-      =t("private")
-
-  - if app_setting("crew_size")
-    .row
-      .combo.col-xs-7{ style: 'float:' + I18n.t('lang_direction')}
-        = form.label t("form_safetybag_crewsize_label")
-        %blockquote
-          = best_in_place_if @can_edit, @camp, :safetybag_crewsize, html_attrs: {maxlength: 5, class: "form-control"}, place_holder: t(:form_click_to_edit_html)
-        %br
-
-  #responsibles
-    = form.fields_for :people do |person|
-      = render 'person_fields', :f => person, :camp_id => @camp.id
-
-  - if @can_edit
-    .row
-      .links.col-xs-12
-        = link_to_add_association t('add_a_new_person'), form, :people, render_options: { locals: { camp_id: @camp.id } }, class: 'btn btn-success', id: 'add-new-person'
-        %br
-        %br
-
-  - if app_setting("safetybag")
-    .combo
-      = t("form_extra_team_member_info")
-
-    .combo
-      = form.label t("form_safetybag_first_member_name_label")
-      = best_in_place_if @can_edit, @camp, :safetybag_firstMemberName, html_attrs: {maxlength: 64, class: "form-control"}, place_holder: t(:form_click_to_edit_html)
-
-    .combo
-      = form.label t("form_safetybag_first_member_email_label")
-      = best_in_place_if @can_edit, @camp, :safetybag_firstMemberEmail, html_attrs: {maxlength: 64, class: "form-control"}, place_holder: t(:form_click_to_edit_html)
-
-    .combo
-      = form.label t("form_safetybag_second_member_name_label")
-      = best_in_place_if @can_edit, @camp, :safetybag_secondMemberName, html_attrs: {maxlength: 64, class: "form-control"}, place_holder: t(:form_click_to_edit_html)
 
   - if app_setting("safetybag")
 

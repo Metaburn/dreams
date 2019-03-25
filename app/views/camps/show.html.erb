@@ -328,29 +328,6 @@
             </div>
         <% end %>
 
-        <% if current_user && (current_user.guide || current_user.admin) %>
-          <br>
-          <div class="panel panel-default">
-            <div class="panel-heading"><h2 class="header-sub-heading"><%=t :form_project_management_crew %></h2></div>
-            <div class="panel-body">
-              <span>
-                  <% @camp.people.each do |person| %>
-                  <li>
-                      <% person.roles.each do |role| %>
-                        <span class='label label-default'><%= t("project_roles." + role.identifier) %></span>
-                      <% end %>
-                      <br>
-                      <%= person.name %>
-                      <%= person.email %>
-                      <%= person.phone_number %>
-                      <br>
-                    </li>
-                  <% end %>
-              </span>
-            </div>
-          </div>
-        <% end %>
-
         <div class="creation-info">
             <ul>
                 <div class="panel panel-default">

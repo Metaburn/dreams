@@ -4,14 +4,6 @@
 
 <% @can_edit = true %>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#camp_people_attributes_0_role_ids_1').prop('checked', true).on('click', function () {
-            return false;
-        });
-    });
-</script>
-
 <%= simple_form_for @camp, :html => {:dir => I18n.t(:html_direction), id: 'createDreamForm'} do |form| %>
   <div class="header-heading col-xs-12" style='float: <%= I18n.t(:lang_direction) %>'>
     <%= t("form_basics_headline") %>
@@ -46,15 +38,6 @@
     <br>
   </div>
   <div>
-
-  <div id="project_manager ">
-    <div>
-      <%= form.label t("form_project_manager"), {class: 'col-xs-12', style: 'float:' + I18n.t('lang_direction') }  %>
-      <%= form.simple_fields_for :people, @camp.people.new do |p| %>
-          <%= render 'person_fields', f: p %>
-      <% end %>
-    </div>
-  </div>
 
   <div class="submit col-xs-12">
     <%= form.submit t(:create_dream), class: 'btn btn-success create-new-dream', data:{toggle: 'tooltip'}, title:'Creating your new dream' %>

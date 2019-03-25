@@ -1,30 +1,28 @@
 defaults: &defaults
-  grant_value_for_currency: 10.0
-  additional_info: true
-  contact_phone: true
-  description: true
-  electricity: true
-  light: true
-  fire: true
-  noise: true
-  nature: false
-  moop: false
-  plan: false
-  cocreation: true
-  neighbors: true
-  recycling: false
-  budgetplan: true
-  seeking_members: true
-  granting: true
+  grant_value_for_currency: <%= ENV['GRANT_VALUE'] or 10.0 %>
+  additional_info: <%= ENV['ADDITIONAL_INFO_FIELD'] or true %>
+  contact_phone: <%= ENV['CONTACT_PHONE_FIELD'] or false %>
+  description: <%= ENV['DESCRIPTION_FIELD'] or true %>
+  electricity: <%= ENV['ELECTRICITY_FIELD'] or true %>
+  light: <%= ENV['LIGHT_FIELD'] or true %>
+  fire: <%= ENV['FIRE_FIELD'] or true %>
+  noise: <%= ENV['NOISE_FIELD'] or true %>
+  nature: <%= ENV['NATURE_FIELD'] or false %>
+  moop: <%= ENV['MOOP_FIELD'] or true %>
+  cocreation: <%= ENV['COCREATION_FIELD'] or true %>
+  neighbors: <%= ENV['NEIGHBORS_FIELD'] or true %>
+  recycling: <%= ENV['RECYCLING_FIELD'] or false %>
+  budgetplan: <%= ENV['BUDGETPLAN_FIELD'] or true %>
+  seeking_members:  <%= ENV['SEEKING_MEMBERS_FIELD'] or true %>
+  granting: <%= ENV['GRANTING_ENABLED'] or true %>
   # Only people with "Ticket records of phone and email can register"
   user_authentication_codes: <%= ENV['USER_AUTHENTICATION_CODES'] or false %>
-  user_authentication_vs_tixwise: true
-  add_to_list: true
-  granting_active: true
-  footer_text: true
-  footer_logo: false
-  creation_sidebar_welcome: true
-  safetybag: false
+  user_authentication_vs_tixwise: <%= ENV['TIXWISE'] or false %>
+  add_to_list: <%= ENV['ADD_TO_LIST'] or true %>
+  granting_active: <%= ENV['GRANTING_ACTIVE'] or true %>
+  footer_text: <%= ENV['FOOTER_TEXT'] or true %>
+  creation_sidebar_welcome: <%= ENV['CREATION_SIDEBAR'] or true %>
+  safetybag: <%= ENV['SAFETYBAG'] or true %>
   person_early_arrival:  <%= ENV['PERSON_EARLY_ARRIVAL'] or false %>
   person_has_ticket:  <%= ENV['PERSON_HAS_TICKET'] or false %>
   multi_lang_support: <%= ENV['MULTI_LANG_SUPPORT'] or false %>
@@ -35,7 +33,7 @@ defaults: &defaults
   show_point_of_contact: <%= ENV['SHOW_POINT_OF_CONTACT'] or false %>
   show_safety_file_comments: <%= ENV['SHOW_SAFETY_FILE_COMMENTS'] or false %>
   recaptcha: <%= ENV['RECAPTCHA'] or false %>
-  max_grants_per_user_per_dream: 10
+  max_grants_per_user_per_dream: <%= ENV['MAX_GRANTS_PER_USER_PER_DREAM'] or 10 %>
 
 development:
   <<: *defaults
